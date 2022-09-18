@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+#menubar {
+    background: black;
+    height: 100vh;
+    position: fixed;
+    padding: 1rem;
+}
+
+.menubar-open {
+    width: 20%;
+}
+#menubar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 85vh;
+}
+#menubar ul li , #menubar ul li a {
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0rem;
+}
+
+#menubar ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.hamburger-open {
+    background-image: url("./icons/hamburger.svg");
+}
+
+#menubar nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hamburgerbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#MenuControl {
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+.hamburger-open {
+    background-image: url("./icons/hamburger.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hamburger-close {
+    background-image: url("./icons/close.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Menutext {
+    width: 100%;
+}
+
+.menubar-close {
+    margin-left: -100%;
+    position: fixed;
+}
+
+#Menutext li {
+    font-size: 1.5rem;
+}
+
+#Menutext li a {
+    color: white;
+}
+
+#Menutext li input {
+    width: 80%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+#logo {
+    margin-top: -2rem;
+    border-top: 1px solid gainsboro;
+    padding: 1rem 0rem;
+}
+
+#logoimg {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: red;
+    border: 2px white solid;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.Logotext {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.Logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.text-close {
+    display: none;
+}
+
+.logo-close {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.listitem{
+    border-bottom: 1px solid rgb(41, 41, 41);;
+    /* background: rgb(22, 22, 22); */
+}
+
+.MenuIcon li {
+    cursor: pointer;
+}
